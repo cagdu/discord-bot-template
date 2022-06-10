@@ -1,0 +1,33 @@
+{
+    "name": "cagd-discord-bot",
+    "version": "0.0.1",
+    "description": "for Discord bot's. Dev by CagatayD#5884",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "setup": "npm i",
+        "start": "node index"
+    },
+    "author": {
+        "name": "CagatayD",
+        "url": "https://github.com/harqu"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^13.7.0",
+        "fs-extra": "^10.1.0",
+        "mysql": "^2.18.1",
+        "node-fetch": "^2.6.7",
+        "os": "^0.1.2"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "template"
+    ],
+    "engines": {
+        "node": ">=16.9.0"
+    }
+}

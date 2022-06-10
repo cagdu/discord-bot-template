@@ -1,0 +1,30 @@
+{
+    "id": "ur bot client id",
+    "token": "ur bot token",
+    "client": {
+        "intents": [
+            "GUILDS",
+            "GUILD_MEMBERS",
+            "GUILD_BANS",
+            "GUILD_INTEGRATIONS",
+            "GUILD_VOICE_STATES",
+            "GUILD_PRESENCES",
+            "GUILD_MESSAGES",
+            "DIRECT_MESSAGES"
+        ],
+        "partials": [
+            "CHANNEL",
+            "REACTION",
+            "GUILD_MEMBER"
+        ]
+    },
+    "presence": {
+        "activities": [
+            {
+                "name": "Hello World!",
+                "type": "LISTENING"
+            }
+        ],
+        "status": "idle"
+    }
+}

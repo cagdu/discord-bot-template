@@ -1,0 +1,5 @@
+{
+    "development": true,
+    "defaultLang": "tr-TR",
+    "invite": "https://discord.com/oauth2/authorize?client_id=BOT_CLIENT_ID&scope=bot&permissions=964756500191"
+}
