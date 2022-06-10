@@ -1,8 +1,9 @@
-# discord-bot-template
-Template for Discord bots
+# Template for Discord bots
 
 • Create a Discord BOT.
+
 • Replace `token` in `data/discord.json` file.
+
 • Replace `database` name in `data/mysql.json` file.
 
 The next is as you already know.
