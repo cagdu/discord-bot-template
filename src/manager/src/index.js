@@ -1,4 +1,4 @@
-const { Client, MessageEmbed } = require("discord.js");
+const { Client, EmbedBuilder } = require("discord.js");
 const { createPool } = require("mysql");
 
 const config = x => require(`../../../.config/${x}.json`), data = x => require(`../../../data/${x}.json`);
@@ -10,11 +10,11 @@ class Base {
 }
 
 class Modules extends Base {
-    embed(options, embed) { embed = new MessageEmbed(options); if (!options.color) { embed.color = "#2f3136"; }; return embed; }
+    embed(options, embed) { embed = new EmbedBuilder(options); if (!options.color) { embed.color = "#2f3136"; }; return embed; }
 }
 
 class Struct extends Base {
-    discord(conf) { if (!conf) conf = data("discord"); let client = new Client(conf.client); client.once("ready", () => { this.log(`${client.user.tag} online`, "discord"); if (conf.presence) client.user.setPresence(conf.presence) }); client.commands = []; client.login(conf.token); return client }
+    discord(conf) { if (!conf) conf = data("discord"); let client = new Client(conf.client); client.once("ready", () => { this.log(`${client.user.tag} online`, "discord"); if (conf.presence) client.user.setPresence(conf.presence) }); client.commands = []; client.login(conf.token); return client; }
     mysql(PoolConfig) { if (!PoolConfig) PoolConfig = data("mysql"); let pool = createPool(PoolConfig); pool.getConnection((e) => { if (e) { this.log(e, "mysql", "error"); pool.end(() => { }) } else this.log("Connection successful", "mysql"); }); return pool; }
 }
 

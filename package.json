@@ -1,6 +1,6 @@
 {
     "name": "cagd-discord-bot",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "for Discord bot's. Dev by CagatayD#5884",
     "main": "index.js",
     "directories": {
@@ -8,14 +8,15 @@
     },
     "scripts": {
         "setup": "npm i",
-        "start": "node index"
+        "start": "node index",
+        "test": "nodemon"
     },
     "author": {
         "name": "CagatayD",
         "url": "https://github.com/harqu"
     },
     "dependencies": {
-        "discord.js": "^13.7.0",
+        "discord.js": "^14.3.0",
         "fs-extra": "^10.1.0",
         "mysql": "^2.18.1"
     },

@@ -1,16 +1,15 @@
 {
-    "id": "ur bot client id",
-    "token": "ur bot token",
+    "id": "",
+    "token": "",
     "client": {
         "intents": [
-            "GUILDS",
-            "GUILD_MEMBERS",
-            "GUILD_BANS",
-            "GUILD_INTEGRATIONS",
-            "GUILD_VOICE_STATES",
-            "GUILD_PRESENCES",
-            "GUILD_MESSAGES",
-            "DIRECT_MESSAGES"
+            1,
+            2,
+            4,
+            16,
+            256,
+            512,
+            4096
         ],
         "partials": [
             "CHANNEL",
@@ -22,7 +21,7 @@
         "activities": [
             {
                 "name": "Hello World!",
-                "type": "LISTENING"
+                "type": 2
             }
         ],
         "status": "idle"
