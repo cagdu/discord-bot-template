@@ -9,5 +9,5 @@
 The next is as you already know.
  
 ```json
-"dependencies": {"discord.js":"^13.7.0","fs-extra":"^10.1.0","mysql":"^2.18.1"}
+"dependencies":{"discord.js":"^14.3.0","fs-extra":"^10.1.0","mysql":"^2.18.1"}
 ```
