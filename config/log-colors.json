@@ -1,0 +1,13 @@
+{
+    "pl": {
+        "default": "         ",
+        "discord": "\u001b[38;2;88;101;242m\u001b[1mDISCORD\u001b[22m\u001b[39m  ",
+        "mysql": "\u001b[38;2;0;97;138m\u001b[1mMY\u001b[22m\u001b[39m\u001b[38;2;228;142;0m\u001b[1mSQL\u001b[22m\u001b[39m    ",
+        "web": "\u001b[38;2;94;225;127m\u001b[1mWEB\u001b[22m\u001b[39m      "
+    },
+    "types": {
+        "log": " \u001b[37mLOG\u001b[39m ",
+        "warn": "\u001b[43m\u001b[30mWARN\u001b[39m\u001b[49m ",
+        "error": "\u001b[41m\u001b[37mERROR\u001b[39m\u001b[49m"
+    }
+}

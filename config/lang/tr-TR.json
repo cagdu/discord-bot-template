@@ -1,0 +1,9 @@
+{
+    "log-restart": "Kullanıcı, $0, botu yeniden başlat komutu gönderdi",
+    "slash-dev_restart": "Ok Bye 👋",
+    "slash-dev_stats-desc": "• Discord Gecikmesi . . . : ` $0ms `\n• MySQL Gecikmesi . . . : ` $1ms `\n• XL Sunucu Gecikmesi : ` 0 `",
+    "developing": "Bu komut geliştirilme amacıyla devre dışı bırakılmış",
+    "db-error": "Veritabanı hatası",
+    "200": "Ok.",
+    "thinking": "Üzerinde çalışıyorum.."
+}
