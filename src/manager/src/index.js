@@ -1,7 +1,7 @@
 const { Client, EmbedBuilder } = require("discord.js");
 const { createPool } = require("mysql");
 
-const config = x => require(`../../../.config/${x}.json`), data = x => require(`../../../data/${x}.json`);
+const config = x => require(`../../../config/${x}.json`), data = x => require(`../../../data/${x}.json`);
 
 class Base {
     development = data("conf").development;
